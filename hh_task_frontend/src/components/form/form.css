@@ -1,0 +1,163 @@
+.card{
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1296px;
+}
+.card__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 60px;
+    background-color: #447DCE;
+    background-image: url("/src/assets/Frame\ 54.svg");
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.card__title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1%;
+    margin-bottom: 4px;
+}
+
+.card__subtitle{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1%;
+    margin-bottom: 40px;
+}
+
+.card__list_item{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    max-width: 665px;
+    margin-bottom: 22px;
+}
+
+.card__list_item:last-child{
+    margin-bottom: 0;
+}
+
+.card__list_item p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 120%;
+}
+
+.card__paragraph{
+    margin-top: 65px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 130%;
+}
+
+.card__buttons{
+    display: flex;
+    column-gap: 32px;
+    margin-top: 28px;
+}
+
+.card__button{
+    width: 316px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+
+.btn__done{
+    background: transparent;
+    border: 2px solid #F8CC34;
+
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.btn__done:hover{
+    background-color: #F8CC34;
+    color: #000;
+    transition: 0.5s ease;
+}
+
+.btn__consult{
+    background: #F8CC34;
+    border: none;
+
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.btn__consult:hover{
+    background-color: #b4941d;
+    transition: 0.5s ease;
+}
+
+.card__form{
+    max-width: 436px;
+    max-height: 465px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.card__form__title{
+    max-width: 360px;
+    max-height: 62px;
+    margin: 40px 28px;
+
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+
+    text-align: center;
+    letter-spacing: 1%;
+    line-height: 130%;
+}
+
+.card__form__submit{
+    display: flex;
+    flex-direction: column;
+    margin-left: 44px;
+    margin-right: 44px;
+    gap: 36px;
+}
+
+.card__form__submit input{
+    height: 56px;
+    border-radius: 8px;
+    font-size: 17px;
+    padding-left: 12px;
+}
+
+.card__form__submit button{
+    height: 56px;
+    border-radius: 8px;
+    font-size: 17px;
+
+    background-color: #F8CC34;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.card__form__submit button:hover{
+    background-color: #b4941d;
+    transition: 0.5s ease;
+}
+
+@media(max-width: 1200px){
+    .card__form{
+        margin-top: 50px;
+        padding-bottom: 40px;
+    }
+}
+
+  
